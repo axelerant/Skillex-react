@@ -1,0 +1,32 @@
+@import "../../base-styles/globals.scss";
+
+.tags {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: $desktop - 1) {
+      flex-direction: column;
+    }
+  }
+
+  &__text {
+    color: $purple;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    text-transform: uppercase;
+  }
+
+  &__image {
+    max-width: 950px;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

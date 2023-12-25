@@ -1,0 +1,49 @@
+@import "../../base-styles/globals.scss";
+
+.text-orange {
+  background: url("../../assets//skillex-orange-bg.png");
+  max-width: 1600px;
+  margin: auto;
+  padding: 80px 20px;
+  &__container {
+    padding: 80px 20px;
+  }
+  &__title {
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+
+    @media (max-width: $desktop - 1) {
+      font-size: 40px;
+    }
+  }
+
+  &__subtitle {
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+
+    @media (max-width: $desktop - 1) {
+      font-size: 30px;
+    }
+  }
+
+  &__description {
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+
+    @media (max-width: $desktop - 1) {
+      font-size: 18px;
+    }
+  }
+}

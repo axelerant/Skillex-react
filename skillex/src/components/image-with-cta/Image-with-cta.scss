@@ -1,0 +1,52 @@
+@import "../../base-styles/globals.scss";
+
+.image-cta {
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    img {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 75px;
+
+    @media (max-width: $desktop-lg - 1) {
+      margin-right: 50px;
+    }
+    @media (max-width: $tablet) {
+      margin-right: 0px;
+    }
+  }
+
+  &__item__btn {
+    display: block;
+    width: fit-content;
+    color: $white;
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 12px 14px;
+    background-color: $purple;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 33px;
+  }
+
+  &__item__title {
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+}

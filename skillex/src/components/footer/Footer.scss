@@ -1,0 +1,111 @@
+@import "../../base-styles/globals.scss";
+
+.footer {
+  background-color: #ff7f54;
+  padding: 150px 0 50px 0;
+}
+
+.footer-nav-primary {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #343434;
+
+  @media (max-width: $tablet - 1) {
+    flex-direction: column;
+    max-width: 285px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.footer-nav {
+  &__text-content {
+    max-width: 304px;
+    width: 100%;
+    @media (max-width: $tablet - 1) {
+      margin: auto;
+    }
+  }
+  &__text-content__decription {
+    margin-top: 90px;
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  &__links-item {
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 50px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__quick-connect {
+    span {
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    &__title {
+      color: $black;
+      font-family: "Gilroy", sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 44px;
+    }
+  }
+}
+
+.footer-nav-secondary {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+  text-align: center;
+
+  @media (max-width: $tablet - 1) {
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+  }
+  &__links-item {
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 16px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__links-list-item {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid $black;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+      border-right: none;
+    }
+  }
+}
