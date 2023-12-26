@@ -1,0 +1,54 @@
+@import "../../base-styles/globals.scss";
+
+.top-features {
+  &__container {
+    max-width: 1240px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+  &__title {
+    color: $purple;
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 100% */
+    text-transform: uppercase;
+  }
+
+  &__item {
+    max-width: 200px;
+    margin-right: 60px;
+
+    @media (max-width: $tablet) {
+      margin-right: 25px;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__item-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item__title {
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+  }
+
+  &__item__description {
+    color: $black;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}
