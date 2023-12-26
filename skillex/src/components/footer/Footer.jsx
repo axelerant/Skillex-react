@@ -45,7 +45,6 @@ function Footer() {
           <h3 className="footer-nav__quick-connect__title">Quick Contact</h3>
           <p className="footer-nav__quick-connect__contact">
             <span>info@skillex.ai</span>
-            <span>+91 999 888 7766</span>
           </p>
         </div>
       </div>
