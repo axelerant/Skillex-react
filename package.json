@@ -12,15 +12,16 @@
     "next": "14.0.4",
     "next-images": "^1.8.5",
     "react": "^18",
-    "react-dom": "^18",
-    "sass": "^1.69.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
+    "sass": "^1.69.5",
     "typescript": "^5"
   }
 }

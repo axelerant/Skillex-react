@@ -64,10 +64,7 @@
     text-transform: uppercase;
     text-decoration: none;
 
-    &::after {
-      content: "";
-      background-image: url("../../assets/icons/right-arrow.svg");
-      background-repeat: no-repeat;
+    .right-arrow {
       display: inline-block;
       width: 20px;
       height: 9px;

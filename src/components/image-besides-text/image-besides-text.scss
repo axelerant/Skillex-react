@@ -70,10 +70,7 @@
     width: fit-content;
     text-decoration: none;
 
-    &::after {
-      content: '';
-      background: url('../../assets/icons/demo-icon.svg');
-      background-repeat: no-repeat;
+    .demo-icon {
       width: 30px;
       height: 18px;
       display: inline-block;

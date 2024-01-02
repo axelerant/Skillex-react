@@ -1,11 +1,13 @@
 import "./Sign-up-component.scss";
 import Image from "next/image";
+import mapTheSkillImg from '../../assets/map-the-skills.png'
+
 
 function SignUp() {
   return (
     <div className="sign-up__container container">
       <div className="sign-up__image">
-        <Image src="../../assets/map-the-skills.png" alt="Map the skills" />
+        <Image src={mapTheSkillImg} alt="Map the skills" width={686} height={454}/>
       </div>
       <h1 className="sign-up__title">
         Map the skills of your team in an inclusive way
