@@ -28,7 +28,7 @@ function Header() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    // Toggle class to body to disable scrolling when menu is open
+    // Toggle className to body to disable scrolling when menu is open
     if (!isOpen) {
       document.body.classList.add("no-scroll");
     } else {
@@ -41,7 +41,9 @@ function Header() {
       <nav className="main-nav">
         <div className="main-nav__logo">
           <a href="/">
-          <div dangerouslySetInnerHTML={{ __html: `
+            <div
+              dangerouslySetInnerHTML={{
+                __html: `
       <svg width="215" height="40" viewBox="0 0 215 40" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g id="Logo">
       <g id="Skillex">
@@ -59,7 +61,9 @@ function Header() {
       </g>
       </svg>
       
-    ` }} />
+    `,
+              }}
+            />
             {/* <Image
               src={siteLogo}
               alt="Skillex logo"

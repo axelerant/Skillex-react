@@ -21,7 +21,8 @@ function ProcessComp() {
           </p>
           <a href="/" className="process-comp__item__btn">
             Learn More
-            <div class='right-arrow'
+            <div
+              className="right-arrow"
               dangerouslySetInnerHTML={{
                 __html: `
                   <svg width="21" height="7" viewBox="0 0 21 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +51,8 @@ function ProcessComp() {
           </p>
           <a href="/" className="process-comp__item__btn">
             Learn More
-            <div class='right-arrow'
+            <div
+              className="right-arrow"
               dangerouslySetInnerHTML={{
                 __html: `
                   <svg width="21" height="7" viewBox="0 0 21 7" fill="none" xmlns="http://www.w3.org/2000/svg">
