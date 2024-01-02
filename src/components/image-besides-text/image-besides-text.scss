@@ -35,6 +35,8 @@
 
   &__description {
     margin-bottom: 16px;
+    font-family: "Gilroy-medium", sans-serif;
+    font-weight: 500;
   }
 
   &__links {
@@ -45,7 +47,7 @@
   &__signUp {
     padding: 20px 30px;
     color: $white;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy-bold', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -60,7 +62,7 @@
   &__demo {
     padding: 20px 30px;
     color: $black;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy-bold', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
