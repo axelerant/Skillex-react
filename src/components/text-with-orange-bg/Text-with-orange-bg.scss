@@ -8,6 +8,7 @@
   &__container {
     padding: 80px 20px;
   }
+
   &__title {
     color: $black;
     font-family: "Gilroy-bold", sans-serif;
@@ -15,6 +16,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 64px;
+    margin-bottom: 44px;
 
     @media (max-width: $desktop - 1) {
       font-size: 40px;
@@ -28,6 +30,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 44px;
+    margin-bottom: 41px;
 
     @media (max-width: $desktop - 1) {
       font-size: 30px;

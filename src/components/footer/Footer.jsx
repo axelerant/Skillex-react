@@ -55,6 +55,11 @@ function Footer() {
             </li>
             <li>
               <a href="/" className="footer-nav__links-item">
+                Resources
+              </a>
+            </li>
+            <li>
+              <a href="/" className="footer-nav__links-item">
                 Product
               </a>
             </li>

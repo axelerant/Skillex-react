@@ -6,7 +6,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Skillex AI',
-  icons: './favicon.ico'
 }
 
 export default function RootLayout({
